@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context=".MainActivity" >
+    
+    <com.example.simplesaving.RotaryButton
+        android:id="@+id/rotary_inside"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:scaleType="matrix"
+        android:src="@drawable/button_inside" />
+
+    <com.example.simplesaving.RotaryButton
+        android:id="@+id/rotary_outside"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:scaleType="matrix"
+        android:src="@drawable/button_outside" />
+    
+    <FrameLayout
+        android:id="@+id/main_activity_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+    <!-- 
+    <TextView
+        android:id="@+id/daily_expection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/daily_expection_number"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="@string/daily_expection"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/update" />
+
+    <EditText
+        android:id="@+id/today_expense"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/update_button"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="@string/today_expense_hint"
+        android:inputType="numberSigned"
+        android:singleLine="true" />
+     
+
+
+    <TextView
+        android:id="@+id/testing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="NUM"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+ -->
+</RelativeLayout>
