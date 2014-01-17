@@ -34,6 +34,8 @@
     <string name="var_expense_before">var_expense_before</string>
     <string name="var_fixed_outcome">var_fixed_outcome</string>
     <string name="var_today_expense">var_today_expense</string>
+    <string name="var_first_time_open_app">var_first_time_open_app</string>
+    
     
     <!-- Variable identifiers END-->
     

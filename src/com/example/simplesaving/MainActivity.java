@@ -38,15 +38,21 @@ public class MainActivity extends Activity {
 		init();		
 	}
 	
-	
+	@Override
+	public void onBackPressed() {
+	   Intent setIntent = new Intent(Intent.ACTION_MAIN);
+	   setIntent.addCategory(Intent.CATEGORY_HOME);
+	   setIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+	   startActivity(setIntent);
+	}
 	@Override
 	protected void onStart() {
 	   super.onStart();
-	   flipAnimation.init();
 	   // If it's the first time opening up the application, show settings page
+	   dc.retrieveVariables();
 	   if(dc.firstTime())
 	     setupForTheFirstTime();
-	   
+	   flipAnimation.init();
 	}
 	protected void onStop() {
 		super.onStop();

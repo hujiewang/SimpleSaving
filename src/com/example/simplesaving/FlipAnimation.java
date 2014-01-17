@@ -20,7 +20,7 @@ import android.widget.TextView;
 
 
 public class FlipAnimation {
-	private boolean mShowingBack = false;
+	private boolean mShowingBack;
 	private static Context context;
 	private FragmentManager fragmentManager;
 	private RotaryButton rotaryButton;
@@ -31,6 +31,7 @@ public class FlipAnimation {
 		//init();
 	}
 	public void init(){
+		mShowingBack=false;
 		rotaryButton.setMinBoundaryListener(new BoundaryEvent(this){
 			@Override
 			public void fireEvent() {
@@ -46,11 +47,17 @@ public class FlipAnimation {
         .addToBackStack(null)
         .commit();
 	}
+	public void clear(){
+		fragmentStackClear();
+	}
 	private void fragmentStackClear(){
+		fragmentManager.popBackStackImmediate(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
+		/*
 		//while(fragmentManager.popBackStackImmediate()){}
 		for(int i=0;i<fragmentManager.getBackStackEntryCount();i++){
 			fragmentManager.popBackStack();
 		}
+        */
 	}
 	public void flipCard() {
         if (mShowingBack) {

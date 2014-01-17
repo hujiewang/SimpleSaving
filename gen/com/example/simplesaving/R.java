@@ -37,13 +37,13 @@ public final class R {
         public static final int test2=0x7f020007;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a0014;
+        public static final int action_settings=0x7f0a0019;
         public static final int card_front=0x7f0a0011;
-        public static final int clear=0x7f0a0015;
+        public static final int clear=0x7f0a001a;
         public static final int daily_earning_edit=0x7f0a0005;
         public static final int daily_earning_text=0x7f0a0004;
         public static final int daily_expection_number=0x7f0a0013;
-        public static final int debug=0x7f0a0016;
+        public static final int debug=0x7f0a001b;
         public static final int editText4=0x7f0a0008;
         public static final int expense_before_edit=0x7f0a000a;
         public static final int expense_before_text=0x7f0a000b;
@@ -53,6 +53,11 @@ public final class R {
         public static final int main_activity_container=0x7f0a0003;
         public static final int monthly_goal__text=0x7f0a0006;
         public static final int monthly_goal_edit=0x7f0a0007;
+        public static final int number_dialogpref_addbutton=0x7f0a0018;
+        public static final int number_dialogpref_current_value=0x7f0a0015;
+        public static final int number_dialogpref_current_value_title=0x7f0a0014;
+        public static final int number_dialogpref_inputData=0x7f0a0016;
+        public static final int number_dialogpref_resetbutton=0x7f0a0017;
         public static final int rotary_inside=0x7f0a0001;
         public static final int rotary_outside=0x7f0a0002;
         public static final int settings_finish=0x7f0a000e;
@@ -72,6 +77,8 @@ public final class R {
         public static final int debug_list_item=0x7f030003;
         public static final int fragment_card_back=0x7f030004;
         public static final int fragment_card_front=0x7f030005;
+        public static final int number_dialogpref=0x7f030006;
+        public static final int preferences=0x7f030007;
     }
     public static final class menu {
         public static final int debug=0x7f090000;
@@ -107,6 +114,7 @@ public final class R {
          */
         public static final int var_daily_expection=0x7f070017;
         public static final int var_expense_before=0x7f07001a;
+        public static final int var_first_time_open_app=0x7f07001d;
         public static final int var_fixed_outcome=0x7f07001b;
         public static final int var_monthly_goal=0x7f070019;
         public static final int var_today_expense=0x7f07001c;

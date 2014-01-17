@@ -34,16 +34,16 @@ public class UpdateInfo {
 		  editor.commit();
      }
      public void setRightNow(){
-    	 lastDay=calendar.getActualMaximum(Calendar.DAY_OF_MONTH);
-    	 lastMonth=calendar.getActualMaximum(Calendar.MONTH);
+    	 lastDay=calendar.get(Calendar.DAY_OF_MONTH);
+    	 lastMonth=calendar.get(Calendar.MONTH);
      }
      public boolean lastUpdateDayIsToday(){
-    	 int today=calendar.getActualMaximum(Calendar.DAY_OF_MONTH);
-    	 int thisMonth=calendar.getActualMaximum(Calendar.MONTH);
+    	 int today=calendar.get(Calendar.DAY_OF_MONTH);
+    	 int thisMonth=calendar.get(Calendar.MONTH);
     	 return lastDay==today&&lastMonth==thisMonth;
      }
      public boolean lastUpdateMonthIsThisMonth(){
-    	 int thisMonth=calendar.getActualMaximum(Calendar.MONTH);
+    	 int thisMonth=calendar.get(Calendar.MONTH);
     	 return lastMonth==thisMonth;
      }
      public int getLastDay(){

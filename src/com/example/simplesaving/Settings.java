@@ -24,16 +24,26 @@ public class Settings extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_settings);
+		// Get a DataCenter instance
+		dc=DataCenter.getInstance(this);
+		dc.disableFirstTime();
 		// Show the Up button in the action bar.
 		setupActionBar();
-        // Get a DataCenter instance
-		dc=DataCenter.getInstance(this);
+				
+        //Display the fragment as the main content.
+        getFragmentManager().beginTransaction()
+                .replace(android.R.id.content, new SettingsFragment())
+                .commit();
+        
+        
+        /*
+		setContentView(R.layout.activity_settings);
 		dialogs=new Dialogs(this);
 		setupButtons();
-		
+		*/
 	}
-
+	
+	
 	/**
 	 * Set up the {@link android.app.ActionBar}, if the API is available.
 	 */
