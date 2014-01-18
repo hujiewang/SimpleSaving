@@ -7,7 +7,7 @@
     <string name="edit_message">Enter a message</string>
     <string name="title_activity_display_message">My Message</string>
     <string name="today_expense">Today\'s expense:</string>
-    <string name="daily_expection">Daily expection</string>
+    <string name="daily_expection">Today\'s expectation</string>
     <string name="action_search">Search</string>
     <string name="today_expense_hint">Add expense</string>
     <string name="update">Update</string>

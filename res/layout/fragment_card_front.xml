@@ -32,8 +32,6 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:text="NUM"
-        android:textAppearance="?android:attr/textAppearanceLarge"/>
-
-
+        android:textSize="50dp"/>
     
 </RelativeLayout>
