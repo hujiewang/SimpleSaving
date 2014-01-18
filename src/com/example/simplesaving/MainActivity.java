@@ -166,11 +166,17 @@ public class MainActivity extends Activity {
 		Intent intent=new Intent(this,Settings.class);
 		startActivity(intent);
 	}
-	
+	private void openSlidePage(){
+		Intent intent=new Intent(this,ScreenSlideActivity.class);
+		startActivity(intent);
+	}
 	private void setupForTheFirstTime(){
+		openSlidePage();
+		/*
 		// Shows up Settings for the first time
 		Intent intent = new Intent(this,Settings.class);
 		startActivity(intent);
+		*/
 	}
 	
 }

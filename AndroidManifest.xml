@@ -38,6 +38,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.simplesaving.MainActivity" />
         </activity>
+        <activity
+            android:name="com.example.simplesaving.ScreenSlideActivity"
+            android:label="@string/title_activity_screen_slide_activity"
+            android:parentActivityName="com.example.simplesaving.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.simplesaving.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

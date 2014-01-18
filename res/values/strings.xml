@@ -21,9 +21,18 @@
     <string name="fixed_outcome">fixed_outcome</string>
     <string name="clear">Clear</string>
     <string name="title_activity_debug">Debug</string>
+    <string name="title_activity_screen_slide_activity">ScreenSlideActivity</string>
     <string name="debug">Debug</string>
     <string name="updateinfo_last_day">updateinfo_last_day</string>
     <string name="updateinfo_last_month">updateinfo_last_month</string>
+    
+    <!-- Actions -->
+    
+    <string name="action_previous">Previous</string>
+    <string name="action_next">Next</string>
+    <string name="action_finish">Finish</string>
+    
+    <!-- Actions END-->
     
     <!-- Variable identifiers -->
     
@@ -39,7 +48,7 @@
     
     <!-- Variable identifiers END-->
     
-    
+    <string name="title_template_step">Step</string>
     
 
 </resources>
