@@ -40,11 +40,7 @@
         </activity>
         <activity
             android:name="com.horizonx.simplesaving.ScreenSlideActivity"
-<<<<<<< HEAD
-            android:label="@string/title_activity_screen_slide_activity"
-=======
             android:label="@string/activity_screen_slide_title"
->>>>>>> 593d7c5768fb3a11742845ebbfd629fb7df530be
             android:parentActivityName="com.horizonx.simplesaving.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
