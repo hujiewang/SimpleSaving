@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.simplesaving;
+package com.horizonx.simplesaving;
 
 import java.util.ArrayList;
 

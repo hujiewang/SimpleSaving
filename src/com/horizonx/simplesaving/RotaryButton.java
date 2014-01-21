@@ -1,6 +1,6 @@
-package com.example.simplesaving;
+package com.horizonx.simplesaving;
 
-import com.example.simplesaving.R;
+import com.horizonx.simplesaving.R;
 
 
 import android.content.Context;

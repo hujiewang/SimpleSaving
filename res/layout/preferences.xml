@@ -7,22 +7,22 @@
         android:title="Persional Data"
         android:key="@string/preference_file_key">
 
-        <com.example.simplesaving.NumberDialogPref
+        <com.horizonx.simplesaving.NumberDialogPref
                   android:defaultValue="0"
                   android:key="@string/var_daily_earning"
                   android:summary="Your income per day"
                   android:title="Daily Earning" />
-        <com.example.simplesaving.NumberDialogPref
+        <com.horizonx.simplesaving.NumberDialogPref
                   android:defaultValue="0"
                   android:key="@string/var_monthly_goal"
                   android:summary="Your monthly saving goal"
                   android:title="Monthly Goal" />
-        <com.example.simplesaving.NumberDialogPref
+        <com.horizonx.simplesaving.NumberDialogPref
                   android:defaultValue="0"
                   android:key="@string/var_expense_before"
                   android:summary="From the first day of this month to yesterday"
                   android:title="Expense this month" />
-        <com.example.simplesaving.NumberDialogPref
+        <com.horizonx.simplesaving.NumberDialogPref
                   android:defaultValue="0"
                   android:key="@string/var_fixed_outcome"
                   android:summary="Rent,insurence,etc"

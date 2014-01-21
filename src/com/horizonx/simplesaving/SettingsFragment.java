@@ -1,4 +1,4 @@
-package com.example.simplesaving;
+package com.horizonx.simplesaving;
 
 import android.os.Bundle;
 import android.preference.PreferenceFragment;

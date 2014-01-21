@@ -49,6 +49,7 @@
     <!-- Variable identifiers END-->
     
     <string name="title_template_step">Step</string>
+    <string name="activity_screen_slide_title">Tutorial</string>
     
 
 </resources>
