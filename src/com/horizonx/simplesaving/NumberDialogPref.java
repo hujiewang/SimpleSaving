@@ -1,4 +1,4 @@
-package com.example.simplesaving;
+package com.horizonx.simplesaving;
 
 import android.app.AlertDialog;
 import android.content.Context;

@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.example.simplesaving;
+package com.horizonx.simplesaving;
 
 public final class R {
     public static final class animator {
@@ -114,6 +114,7 @@ public final class R {
         public static final int action_previous=0x7f080018;
         public static final int action_search=0x7f080007;
         public static final int action_settings=0x7f080001;
+        public static final int activity_screen_slide_title=0x7f080023;
         public static final int app_name=0x7f080000;
         public static final int clear=0x7f080012;
         public static final int daily_earning=0x7f08000b;

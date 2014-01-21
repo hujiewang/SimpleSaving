@@ -1,4 +1,4 @@
-package com.example.simplesaving;
+package com.horizonx.simplesaving;
 
 import android.content.Context;
 import android.util.AttributeSet;

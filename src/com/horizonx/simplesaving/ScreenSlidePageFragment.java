@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.simplesaving;
+package com.horizonx.simplesaving;
 
 import android.support.v4.app.Fragment;
 import android.graphics.drawable.Drawable;

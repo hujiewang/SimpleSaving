@@ -6,7 +6,7 @@
     android:orientation="horizontal"
     tools:context=".MainActivity" >
     
-    <com.example.simplesaving.RotaryButton
+    <com.horizonx.simplesaving.RotaryButton
         android:id="@+id/rotary_inside"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -15,7 +15,7 @@
         android:scaleType="matrix"
         android:src="@drawable/button_inside" />
 
-    <com.example.simplesaving.RotaryButton
+    <com.horizonx.simplesaving.RotaryButton
         android:id="@+id/rotary_outside"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

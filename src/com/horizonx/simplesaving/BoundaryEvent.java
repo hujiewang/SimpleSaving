@@ -1,4 +1,4 @@
-package com.example.simplesaving;
+package com.horizonx.simplesaving;
 
 public abstract class BoundaryEvent {
 	 protected FlipAnimation flipAnimation;

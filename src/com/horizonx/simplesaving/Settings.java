@@ -1,4 +1,4 @@
-package com.example.simplesaving;
+package com.horizonx.simplesaving;
 
 import android.annotation.TargetApi;
 import android.app.Activity;

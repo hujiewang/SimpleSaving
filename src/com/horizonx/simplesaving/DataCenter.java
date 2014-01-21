@@ -1,4 +1,4 @@
-package com.example.simplesaving;
+package com.horizonx.simplesaving;
 
 import java.io.Console;
 import java.util.Calendar;
