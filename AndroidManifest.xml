@@ -28,7 +28,7 @@
             android:parentActivityName="com.horizonx.simplesaving.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.simplesaving.MainActivity" />
+                android:value="com.horizonx.simplesaving.MainActivity" />
         </activity>
         <activity
             android:name="com.horizonx.simplesaving.Debug"
@@ -36,7 +36,7 @@
             android:parentActivityName="com.horizonx.simplesaving.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.simplesaving.MainActivity" />
+                android:value="com.horizonx.simplesaving.MainActivity" />
         </activity>
         <activity
             android:name="com.horizonx.simplesaving.ScreenSlideActivity"
@@ -44,7 +44,7 @@
             android:parentActivityName="com.horizonx.simplesaving.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.simplesaving.MainActivity" />
+                android:value="com.horizonx.simplesaving.MainActivity" />
         </activity>
     </application>
 
